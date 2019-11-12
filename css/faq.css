@@ -1,0 +1,52 @@
+.container_faq{
+    display:flex;
+    margin-top:3%;
+    margin-left:5%;
+    margin-right:5%;
+    background: url('../assets/fundo2.jpg');
+    background-size:cover;
+    height:100px;
+    align-items:center;
+    justify-content:center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.8em;
+    color:#fff
+}
+
+.perguntas{
+    display: flex;
+    margin-top:3%;
+    margin-left:15%;
+    margin-right:15%;
+   
+}
+
+ul.lista_pergutas{
+  
+    width:100%;
+}
+
+li.pergunta{
+   border-bottom:1px solid #ccc;
+   font-family: 'Montserrat', sans-serif;
+   padding-bottom:20px;
+   cursor: pointer;
+   padding-top:20px;
+}
+
+ul.lista_resposta{
+    display: none;
+}
+li.pergunta:hover ul.resposta{
+    display:table;
+}
+
+li.resposta{
+    padding-top:15px;
+    padding-left:15px;
+    color:rgb(192, 187, 187);
+    font-size:0.9em;
+}

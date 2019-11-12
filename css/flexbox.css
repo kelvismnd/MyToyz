@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+}
+
+ul.list_pages{
+    display: flex;
+   
+}
+
+.container_login{
+    cursor: pointer;
+    display: flex;
+    flex-direction:wrap;
+    align-items:center;
+}
+
+.container_slide{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.container_regras{
+    display: flex;
+    justify-content:space-around;
+}
+.box_infor{
+    display:flex;
+    align-items:center;
+    
+}
+
+
+.container_titulo_shop{
+    display:flex;
+    justify-content:center;
+}
+.container_sobre{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content:center;
+    margin-bottom:2%;
+}
+.container_redes_sociais{
+    display:flex;
+    justify-content:space-around;
+}
+
+.rodape{
+    display:flex;
+    flex-direction:row;
+  
+    align-items:center;
+}
