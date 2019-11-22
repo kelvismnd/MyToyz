@@ -121,12 +121,13 @@ img.img_login {
 
 .conteudoPrincipal ul li {
   font-family: 'Montserrat', sans-serif;
-  width: 200px;
-  height: 200px;
+  width: 200%;
+  height: 100px;
   background: #fff;
   margin-right: 10px;
   box-shadow: 2px 2px 2px #ccc;
   cursor: pointer;
+  background-repeat: no-repeat;
 }
 
 .conteudoPrincipal ul li:hover {
@@ -212,4 +213,9 @@ img.img_login {
   margin-bottom: 10px;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.produtos {
+  padding: 20px;
+  width: 100%;
 }
