@@ -10,32 +10,29 @@ body {
   margin-top: 2%;
   margin-right: 5%;
   font-family: 'Montserrat', sans-serif;
-  height: 70px;
+  height: 130px;
 }
+.img_logo {
+  width: 130px;
+  height: 120px;
+}
+
 .logo {
   display: table;
-  font-size: 1.8em;
-  background: #111;
-  color: #fff;
-  padding: 15px;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  transition: 0.8s color;
+  margin-top: 10px;
   cursor: pointer;
-  letter-spacing: 4px;
+  margin-left: 20px;
 }
 .logo:hover {
   color: #ff6200;
 }
 
-ul.list_pages {
-}
-
 ul.list_pages li {
   font-family: 'Montserrat', sans-serif;
-  margin-left: 50px;
+  margin-right: 50px;
   cursor: pointer;
   transition: 0.4s color;
+  font-size: 1.2em;
 }
 
 ul.list_pages li:hover {
@@ -107,7 +104,8 @@ img.img_login {
   margin-left: 5%;
   margin-top: 1%;
   margin-right: 5%;
-
+  display: table;
+  width: 90%;
   padding: 30px;
   background: #f2f5f7;
   box-sizing: border-box;
@@ -120,20 +118,17 @@ img.img_login {
 }
 
 .conteudoPrincipal ul li {
-  font-family: 'Montserrat', sans-serif;
-  width: 200%;
-  height: 100px;
-  background: #fff;
-  margin-right: 10px;
-  box-shadow: 2px 2px 2px #ccc;
-  cursor: pointer;
-  background-repeat: no-repeat;
-}
+  background: transparent;
 
-.conteudoPrincipal ul li:hover {
+  cursor: pointer;
+  display: table;
+}
+.img_produtos {
+  width: 60%;
+}
+.img_produtos:hover {
   box-shadow: 4px 4px 4px #ccc;
 }
-
 .subtitulo {
   display: flex;
   margin-left: 5%;
@@ -213,9 +208,4 @@ img.img_login {
   margin-bottom: 10px;
   margin-top: 10px;
   cursor: pointer;
-}
-
-.produtos {
-  padding: 20px;
-  width: 100%;
 }
