@@ -211,7 +211,7 @@ img.img_login {
 }
 
 .img_produtosAll {
-  width: 80% !important;
+  width: 100% !important;
   cursor: pointer;
 }
 .img_produtosAll:hover {
@@ -236,4 +236,5 @@ img.img_login {
 }
 
 .todosProdutos ul li {
+  margin-right: 10px;
 }
