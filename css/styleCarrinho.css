@@ -1,11 +1,11 @@
 a {
   text-decoration: none;
-  color: #444;
+  color: #fff;
   font-family: 'Arial';
   font-size: 1.1em;
 }
 div.container_voltar {
-  background: #069;
+  background: rgb(163, 170, 173);
   padding: 10px;
   display: table;
   position: fixed;
