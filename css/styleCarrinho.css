@@ -1,0 +1,35 @@
+h2 {
+  display: table;
+  margin: 4% auto;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #444;
+}
+
+.container_img {
+  display: table;
+  margin: auto;
+  cursor: pointer;
+}
+
+.produtos_carrinho {
+  display: table;
+  margin: auto;
+  background: #069;
+  width: 100%;
+}
+
+.produtos_carrinho ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.produtos_carrinho ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Arial';
+  border: 1px solid #333;
+}
