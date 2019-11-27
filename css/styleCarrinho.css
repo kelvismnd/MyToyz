@@ -18,6 +18,7 @@ h2 {
   margin: auto;
   background: #fff;
   width: 80%;
+  margin-left: 100px;
 }
 
 .produtos_carrinho ul {
@@ -33,7 +34,7 @@ h2 {
   font-family: 'Arial';
   border: 1px solid #ccc;
   justify-content: space-around;
-  width: 60%;
+  width: 80%;
   margin-bottom: 10px;
 }
 
@@ -69,4 +70,19 @@ li.container_orçamento img {
 }
 .container_cep button:hover {
   background: #18bd18;
+}
+
+#limparCarrinho:hover {
+  color: rgb(228, 118, 118) !important;
+}
+
+.container_principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.calculo_final {
+  background: #069;
+  width: 200px;
+  margin-right: 200px;
 }
