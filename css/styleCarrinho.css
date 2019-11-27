@@ -16,8 +16,8 @@ h2 {
 .produtos_carrinho {
   display: table;
   margin: auto;
-  background: #069;
-  width: 100%;
+  background: #fff;
+  width: 80%;
 }
 
 .produtos_carrinho ul {
@@ -31,5 +31,17 @@ h2 {
   flex-direction: row;
   align-items: center;
   font-family: 'Arial';
-  border: 1px solid #333;
+  border: 1px solid #ccc;
+  justify-content: space-around;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.container_descricao p {
+  font-family: 'Arial';
+  font-size: 0.8em;
+}
+
+.container_valor {
+  font-size: 1.2em;
 }
