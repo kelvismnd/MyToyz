@@ -56,12 +56,16 @@ img.img_login {
   margin-right: 5%;
   height: 300px;
   font-family: 'Montserrat', sans-serif;
+
+  background-image: url('../assets/banner/banner3.png');
+  background-repeat: no-repeat;
 }
 .container_slide h2 {
   font-size: 1.9em;
   color: #fff;
 }
 .btn-slide {
+  z-index: 10000 !important;
   height: 50px;
   width: 50px;
   background: transparent;
@@ -237,4 +241,10 @@ img.img_login {
 
 .todosProdutos ul li {
   margin-right: 10px;
+}
+
+.container_banner {
+  display: table;
+  margin: auto;
+  z-index: 100000 !important;
 }
