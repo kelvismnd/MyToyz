@@ -1,3 +1,17 @@
+a {
+  text-decoration: none;
+  color: #444;
+  font-family: 'Arial';
+  font-size: 1.1em;
+}
+div.container_voltar {
+  background: #069;
+  padding: 10px;
+  display: table;
+  position: fixed;
+  left: 30px;
+}
+
 h2 {
   display: table;
   margin: 4% auto;
@@ -82,7 +96,40 @@ li.container_orçamento img {
 }
 
 .calculo_final {
-  background: #069;
   width: 200px;
-  margin-right: 200px;
+  margin-right: 25%;
+}
+
+.calculo_final {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculo_final ul {
+  list-style-type: none;
+}
+
+.calculo_final ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 250px;
+  border-bottom: 1px solid rgb(219, 215, 215);
+  border-left: 1px solid rgb(219, 215, 215);
+  border-right: 1px solid rgb(219, 215, 215);
+  font-family: 'Arial';
+}
+
+.li_total {
+  background: #e5f5e5;
+}
+
+.calculo_final ul li button {
+  padding: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #00a000;
+  border: 0;
+  color: #fff;
+  font-size: 1em;
 }
