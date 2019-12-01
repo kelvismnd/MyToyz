@@ -10,3 +10,7 @@ entre eles:
 CommonModule, ReactiveFormsModule, IonicModule
 
 então criei esse modulo para no lugar de ficar importanto esses modulos o tempo todo, importar apenas o sharedmodule para eles.
+
+#coremodule
+
+eu quis deixar o component  app.module responsavel apenas por fazer o bootstrap da minha aplicação
